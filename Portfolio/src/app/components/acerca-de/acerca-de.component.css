@@ -1,35 +1,35 @@
 .row {
-    padding: 20px;
+  padding: 20px;
 }
 
-div{
-    background-color: #a1b5cb;
-    text-align: center;
+div {
+  background-color: #a1b5cb;
+  text-align: center;
 }
 
-#nombre{
-    font-weight: bold;
-    margin-top: 10%;
+#nombre {
+  font-weight: bold;
+  margin-top: 10%;
 }
 
-@media (min-width: 576px){
-    #fotoPerfil{
-        position: absolute;
-        width: 15%;
-        border-radius: 100%;
-        box-shadow: 3px gray;
-        left: 2%;
-        top: 810px;
-    }
+@media (min-width: 576px) {
+  #fotoPerfil {
+    position: absolute;
+    width: 15%;
+    border-radius: 100%;
+    box-shadow: 3px gray;
+    left: 2%;
+    margin-top: -5%;
+  }
 }
 
-@media (max-width: 575px){
-    #fotoPerfil{
-        position: absolute;
-        width: 39%;
-        border-radius: 100%;
-        box-shadow: 3px gray;
-        left: 29%;
-        top: 280px;
-    }
+@media (max-width: 575px) {
+  #fotoPerfil {
+    position: absolute;
+    width: 39%;
+    border-radius: 100%;
+    box-shadow: 3px gray;
+    left: 29%;
+    margin-top: -21%;
+  }
 }
